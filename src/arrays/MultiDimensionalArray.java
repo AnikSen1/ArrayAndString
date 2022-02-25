@@ -5,9 +5,11 @@ public class MultiDimensionalArray {
 	public static void main(String[] args) {
 
 	int [][] a= {{10,20,30}, {11,21,31}};
-	for(int i=0; i<2;i++)
+	
+
+	for(int i=0; i<2; i++)
 	{
-		for(int j=0;j<3;j++)
+		for(int j=0; j<3; j++)
 		{
 			System.out.print(a[i][j]+" ");
 		}
@@ -17,11 +19,11 @@ public class MultiDimensionalArray {
 	
 	
 	System.out.println("Using for-each loop");
-	for(int[] i:a) 
+	for(int[] m:a) 
 	{
-		for(int j:i) 
+		for(int n:m) 
 		{
-			System.out.print(j+" ");	
+			System.out.print(n+" ");	
 		}
 	
 	System.out.println();
@@ -50,11 +52,11 @@ public class MultiDimensionalArray {
 	
 	
 	System.out.println("Using for-each loop");
-	for(int[] i:b) 
+	for(int[] m:b) 
 	{
-		for(int j:i) 
+		for(int n:m) 
 		{
-			System.out.print(j+" ");	
+			System.out.print(n+" ");	
 		}
 	
 	System.out.println();
